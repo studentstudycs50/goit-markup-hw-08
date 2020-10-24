@@ -128,6 +128,14 @@
   }
 }
 
+@media screen and (min-width: 768px) {
+  .main-features {
+    width: 768px;
+  }
+  .icons-benefits-four{
+    flex-wrap: wrap;
+  }
+}
 /* написать код для таблетаи десктопа
 @media screen and (min-width: 768px) {
   .container {
@@ -135,10 +143,8 @@
   }
 }
 
-
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
   }
 }
-*/
