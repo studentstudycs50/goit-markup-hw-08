@@ -113,9 +113,9 @@
   background-color: $third-bg-color;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
   .main-features {
-    width: 480px;
+    max-width: 480px;
   }
   .icons-benefits-four {
     width: 480px;
