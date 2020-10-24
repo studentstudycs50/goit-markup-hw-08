@@ -6,3 +6,8 @@
   text-align: center;
   padding-bottom: 50px;
 }
+@media screen and (min-width: 480px) {
+  .section-title {
+    width: 480px;
+  }
+}
