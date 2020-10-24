@@ -247,6 +247,7 @@
   margin-right: auto;
   background-color: $second-bg-color;
   outline: 1px solid $title-text-color;
+
   /*background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -257,6 +258,7 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+/*
 @media not all,
   screen and (min-resolution: 192dpi) and (min-width: 480px),
   screen and (min-resolution: 2dppx) and (min-width: 480px) {
@@ -278,6 +280,8 @@
     background-image: url("../img/remade-tel/header-web-img@2x.webp");
   }
 }
+
+
 @media not all,
   screen and (min-resolution: 192dpi) and (min-width: 768px),
   screen and (min-resolution: 2dppx) and (min-width: 768px) {
@@ -334,6 +338,7 @@
     background-image: url("../img/desct-rem/head-w@2x.webp");
   }
 }
+*/
 /*{
   background-image:linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -348,3 +353,30 @@
  }
 }
 */
+@media screen and (min-width: 480px) {
+  .overlay-head {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/remade-tel/igor-on.jpg");
+  }
+}
+@media screen and (min-width: 768px) {
+  .overlay-head {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/tablet/img.jpg");
+  }
+}
+@media screen and (min-width: 1200px) {
+  .overlay-head {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/desct-rem/imge.jpg");
+  }
+}
