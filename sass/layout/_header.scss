@@ -223,7 +223,6 @@
 */
 /* задаем цвет при ховере*/
 
-
 .link:hover .icon-for-header-svg-m {
   fill: $accent-text-color;
 }
@@ -240,28 +239,55 @@
 
 .overlay-head {
   flex-grow: 1;
- /* max-width: 1600px;
+  /* max-width: 1600px;
   height: 600px; for desctop*/
   margin-left: auto;
   margin-right: auto;
   background-color: $second-bg-color;
   outline: 1px solid $title-text-color;
-  background-image: linear-gradient(
+  /*background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
     url("../img/fon/imj-for-header.jpg");
-   
+   */
+  background-image: url("../img/remade-tel/header-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
- @media screen and (max-width: 480px) {
-    background-image:linear-gradient(
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .overlay-head {
+    background-image: url("../img/remade-tel/header-img@2x.jpg");
+  }
+}
+@media screen and (min-device-pixel-ratio: 1),
+  screen and (min-resolution: 96dpi),
+  screen and (min-resolution: 1dppx) {
+  .overlay-head {
+    background-image: url("../img/remade-tel/header-we-img.webp");
+  }
+}
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .overlay-head {
+    background-image: url("../img/remade-tel/header-web-img@2x.webp");
+  }
+}
+
+/*{
+  background-image:linear-gradient(
       rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ), url("../img/remade-tel/header-img.jpg" 1x); 
-    url("../img/remade-tel/header-web-img@2x.webp" 2x);
+      rgba(47, 48, 58, 0.4), 
+
+     url("../img/remade-tel/header-web-img@2x.webp" 2x);
+     }
+
+    
     url("../img/remade-tel/header-we-img.webp" 1x);
-    url("../img/remade-tel/header-img@2x.jpg" 2x);
+    
  }
 }
+*/
