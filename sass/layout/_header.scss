@@ -241,7 +241,8 @@
   flex-grow: 1;
   /* max-width: 1600px;
   height: 600px; for desctop*/
-  min-width: 320px;
+  max-width: 100%;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
   background-color: $second-bg-color;
@@ -256,23 +257,23 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-@media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
+@media not all,
+  screen and (min-resolution: 192dpi) and (min-width: 480px),
+  screen and (min-resolution: 2dppx) and (min-width: 480px) {
   .overlay-head {
     background-image: url("../img/remade-tel/header-img@2x.jpg");
   }
 }
-@media screen and (min-device-pixel-ratio: 1),
-  screen and (min-resolution: 96dpi),
-  screen and (min-resolution: 1dppx) {
+@media not all,
+  screen and (min-resolution: 192dpi) and (min-width: 480px),
+  screen and (min-resolution: 2dppx) and (min-width: 480px) {
   .overlay-head {
     background-image: url("../img/remade-tel/header-we-img.webp");
   }
 }
-@media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
+@media not all,
+  screen and (min-resolution: 192dpi) and (min-width: 480px),
+  screen and (min-resolution: 2dppx) and (min-width: 480px) {
   .overlay-head {
     background-image: url("../img/remade-tel/header-web-img@2x.webp");
   }
