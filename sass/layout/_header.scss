@@ -255,7 +255,7 @@
    */
   background-image: url("../img/remade-tel/header-img.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 @media not all,
   screen and (min-resolution: 192dpi) and (min-width: 480px),
@@ -278,7 +278,62 @@
     background-image: url("../img/remade-tel/header-web-img@2x.webp");
   }
 }
-
+@media not all,
+  screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) {
+  .overlay-head {
+    background-image: url("../img/tablet/header.jpg");
+  }
+}
+@media not all,
+  screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) {
+  .overlay-head {
+    background-image: url("../img/tablet/heade@2x.jpg");
+  }
+}
+@media not all,
+  screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) {
+  .overlay-head {
+    background-image: url("../img/tablet/header-w.webp");
+  }
+}
+@media not all,
+  screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) {
+  .overlay-head {
+    background-image: url("../img/tablet/header-w@2x.webp");
+  }
+}
+@media not all,
+  screen and (min-resolution: 192dpi) and (min-width: 1200px),
+  screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+  .overlay-head {
+    background-image: url("../img/desct-rem/head.jpg");
+  }
+}
+@media not all,
+  screen and (min-resolution: 192dpi) and (min-width: 1200px),
+  screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+  .overlay-head {
+    background-image: url("../img/desct-rem/head-w.webp");
+  }
+}
+@media not all,
+  screen and (min-resolution: 192dpi) and (min-width: 1200px),
+  screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+  .overlay-head {
+    background-image: url("../img/desct-rem/header@2x.jpg");
+  }
+}
+@media not all,
+  screen and (min-resolution: 192dpi) and (min-width: 1200px),
+  screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+  .overlay-head {
+    background-image: url("../img/desct-rem/head-w@2x.webp");
+  }
+}
 /*{
   background-image:linear-gradient(
       rgba(47, 48, 58, 0.4),
