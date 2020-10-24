@@ -132,8 +132,12 @@
   .main-features {
     width: 768px;
   }
-  .icons-benefits-four{
+  .our-work-features {
+    display: flex;
     flex-wrap: wrap;
+  }
+  .benefits{
+    margin-right: 30px;
   }
 }
 /* написать код для таблетаи десктопа
