@@ -265,8 +265,8 @@
   }
 }
 @media not all,
-  screen and (min-resolution: 192dpi) and (min-width: 480px),
-  screen and (min-resolution: 2dppx) and (min-width: 480px) {
+  screen and (min-resolution: 96dpi) and (min-width: 480px),
+  screen and (min-resolution: 1dppx) and (min-width: 480px) {
   .overlay-head {
     background-image: url("../img/remade-tel/header-we-img.webp");
   }
